@@ -1,0 +1,36 @@
+{
+  "TATACONSUM_2024": {
+    "ticker": "TATACONSUM_2024",
+    "buy_and_hold": {
+      "total_return": -0.025489483937002566,
+      "cagr": -0.025506717915551036,
+      "annualized_volatility": 0.18567812884070892,
+      "sharpe_ratio": -0.3809768121971408,
+      "sortino_ratio": -0.6578030899083068,
+      "max_drawdown": -0.2175715731313077,
+      "calmar_ratio": -0.11723368796969331,
+      "n_trades": 0
+    },
+    "strategy_1_baseline": {
+      "total_return": 0.0,
+      "cagr": 0.0,
+      "annualized_volatility": 0.0,
+      "sharpe_ratio": NaN,
+      "sortino_ratio": NaN,
+      "max_drawdown": 0.0,
+      "calmar_ratio": NaN,
+      "n_trades": 0
+    },
+    "strategy_1b_relaxed": {
+      "total_return": 0.0,
+      "cagr": 0.0,
+      "annualized_volatility": 0.0,
+      "sharpe_ratio": NaN,
+      "sortino_ratio": NaN,
+      "max_drawdown": 0.0,
+      "calmar_ratio": NaN,
+      "n_trades": 0
+    },
+    "n_bars": 262
+  }
+}

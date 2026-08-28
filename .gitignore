@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+*.egg-info/
+.env
+.venv/
+venv/
+
+# Large/raw data: keep the small real seed dataset, but don't force-track
+# large multi-stock downloads pulled via scripts/download_data.py
+data/raw/*.csv
+!data/raw/TATACONSUM_2024.csv
+data/processed/*.csv
