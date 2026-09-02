@@ -25,12 +25,12 @@ def generate_baseline_signals(
     cross_up = macd_cross_up(out["MACD"], out["MACD_signal"])
     cross_up_confirmed = cross_up.copy()
     for lag in range(1, confirm_bars):
-        cross_up_confirmed &= cross_up.shift(lag).fillna(False).infer_objects(copy=False)
+        cross_up_confirmed &= cross_up.shift(lag, fill_value=False)
 
     macd_above = out["MACD"] > out["MACD_signal"]
     held_n_bars = macd_above.copy()
     for lag in range(1, confirm_bars):
-        held_n_bars &= macd_above.shift(lag).fillna(False)
+        held_n_bars &= macd_above.shift(lag, fill_value=False)
 
     buy = (
         (out["RSI_14"] < rsi_buy_max)

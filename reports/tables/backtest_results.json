@@ -4,8 +4,8 @@
     "buy_and_hold": {
       "total_return": -0.025489483937002566,
       "cagr": -0.025506717915551036,
-      "annualized_volatility": 0.18567812884070892,
-      "sharpe_ratio": -0.3809768121971408,
+      "annualized_volatility": 0.1856781288407089,
+      "sharpe_ratio": -0.38097681219714086,
       "sortino_ratio": -0.6578030899083068,
       "max_drawdown": -0.2175715731313077,
       "calmar_ratio": -0.11723368796969331,
