@@ -141,9 +141,3 @@ python scripts/download_data.py
 2. **Candlestick Reliability**: Across 90 detected pattern instances, textbook directional expectations were frequently violated over small samples (e.g., Shooting Star delivered positive 5-day forward returns). All pattern categories had $n < 20$, highlighting the critical necessity of multi-year cross-sectional sample sizes before claiming a tradable statistical edge.
 
 For full empirical analysis and methodology discussions, see [reports/final_report.md](reports/final_report.md).
-
----
-
-## License
-
-This project is licensed under the MIT License.
